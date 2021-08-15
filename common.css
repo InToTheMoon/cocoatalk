@@ -1,0 +1,42 @@
+#not-phone {
+	display: none;
+	font-size: xx-large;
+}
+
+#phone {
+	display: block;
+}
+
+#status {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#status > .wifi {
+	text-align: left;
+}
+
+#status > .time {
+	text-align: center;
+}
+
+#status > .beterry {
+	text-align: right;
+}
+
+@media ( min-width: 650px ) {
+	body {
+		background-color: yellow;
+		text-align: center;
+	}
+	#not-phone { 
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		color: black;
+	}
+	#phone {
+		display: none;
+	}
+}

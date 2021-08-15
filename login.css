@@ -1,0 +1,32 @@
+#welcome {
+	text-align: center;
+	height: 250px;
+}
+
+.centeringContainer { 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#email {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+#password  {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+#password  {
+	width: 100%;
+}
+
+#login {
+	width: 100%;
+}
+
+#remind {
+	text-align: center;
+}
