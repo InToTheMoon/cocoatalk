@@ -1,6 +1,6 @@
 #welcome {
 	text-align: center;
-	height: 250px;
+	height: 260px;
 }
 
 .centeringContainer { 
@@ -11,22 +11,38 @@
 
 #email {
 	width: 100%;
-	margin-bottom: 1rem;
+	margin-bottom: 2rem;
 }
 
 #password  {
 	width: 100%;
-	margin-bottom: 1rem;
+	margin-bottom: 2rem;
 }
 
-#password  {
-	width: 100%;
-}
-
-#login {
-	width: 100%;
-}
-
-#remind {
+#login-form {
+	margin-left: 3%;
+	margin-right: 3%;
+	width: 94%;
 	text-align: center;
+}
+
+.login-submit {
+	background-color: yellow;
+	height: 4rem;
+	border-radius: 0.5rem;
+	border-style: none;
+	width: 100%;
+	font-size: large;
+	cursor:pointer;
+}
+
+#reminder-form {
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.remind {
+	border: none;
+	text-decoration: none;
+	color: black;
 }
