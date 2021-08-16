@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="common.css">
     <link rel="stylesheet" href="login.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bfc7077929.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -18,12 +19,15 @@
       <div id="status">
         <div class="wifi">
           No Service
+          <i class="fas fa-wifi"></i>
         </div>
         <div class="time">
           18:43
         </div>
-        <div class="be  terry">
+        <div class="beterry">
           110%
+          <i class="fas fa-battery-full"></i>
+          <i class="fas fa-bolt"></i>
         </div>
       </div>
 
@@ -33,26 +37,27 @@
           <h1>
             Welcome to Kokoa Clone
           </h1>
-          <p>
+          <p class="text-gray">
             If you have a Kokoa Account, log in with your email or phone number.
           </p>
         </div>
       </div>
 
       <!-- login -->
-      <div id="login">
+      <div id="login-form">
         <div>
-          <input type="text" name="email" id="email">
+          <input type="text" name="email" id="email" class="login-input text-gray" placeholder="Email or phone number" />
         </div>
         <div>
-          <input type="text" name="password" id="password">
+          <input type="text" name="password" id="password" class="login-input text-gray" placeholder="Password" />
         </div>
         <div>
-          <input type="button" id="login" value="Log In">
+          <input type="button" id="login" value="Log In" class="login-submit">
         </div>
-        <div>
-          <p id="remind">Find Kokoa Account or Password</p>
-        </div>
+      </div>
+
+      <div id="reminder-form">
+        <a id="remind" class="remind" href="#">Find Kokoa Account or Password</a>
       </div>
     </div>
   </body>

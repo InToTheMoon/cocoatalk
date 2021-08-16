@@ -1,3 +1,7 @@
+body {
+	font-family: Helvetica, sans-serif;	
+}
+
 #not-phone {
 	display: none;
 	font-size: xx-large;
@@ -22,6 +26,26 @@
 
 #status > .beterry {
 	text-align: right;
+}
+
+.login-input {
+	border-bottom-width: 1px;
+	border-style: solid;
+	border-bottom-color: rgba(0, 0, 0, 0.2);
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	height: 3rem;
+	font-size: 18px;
+}
+
+.text-gray {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.login-input:focus {
+	outline: none;
+	border-bottom-color: yellow;
 }
 
 @media ( min-width: 650px ) {
