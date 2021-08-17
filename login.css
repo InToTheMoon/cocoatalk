@@ -37,7 +37,7 @@
 }
 
 #reminder-form {
-	margin-top: 1rem;
+	margin-top: 1.5rem;
 	text-align: center;
 }
 
@@ -45,4 +45,5 @@
 	border: none;
 	text-decoration: none;
 	color: black;
+	font-size: small;
 }

@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Welcome to Kokoa Clone</title>
+    <title>Welcome to Cocoa Clone</title>
     <link rel="stylesheet" href="common.css">
     <link rel="stylesheet" href="login.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,10 +35,10 @@
       <div class="centeringContainer" id="welcome">
         <div>
           <h1>
-            Welcome to Kokoa Clone
+            Welcome to Cocoa Clone
           </h1>
           <p class="text-gray">
-            If you have a Kokoa Account, log in with your email or phone number.
+            If you have a CoCoa Account, log in with your email or phone number.
           </p>
         </div>
       </div>
@@ -52,13 +52,16 @@
           <input type="text" name="password" id="password" class="login-input text-gray" placeholder="Password" />
         </div>
         <div>
-          <input type="button" id="login" value="Log In" class="login-submit">
+          <input type="button" id="login" value="Log In" class="login-submit" onclick="login()">
         </div>
       </div>
 
+      <!-- reminder -->
       <div id="reminder-form">
-        <a id="remind" class="remind" href="#">Find Kokoa Account or Password</a>
+        <a id="remind" class="remind" href="#">Find Cocoa Account or Password</a>
       </div>
     </div>
+
+    <script src="common.js"></script>
   </body>
 </html>

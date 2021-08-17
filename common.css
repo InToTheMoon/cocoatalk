@@ -48,6 +48,13 @@ body {
 	border-bottom-color: yellow;
 }
 
+.loading-form {
+	background-color: yellow;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 @media ( min-width: 650px ) {
 	body {
 		background-color: yellow;
