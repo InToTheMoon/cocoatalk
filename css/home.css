@@ -1,0 +1,89 @@
+.friends-form > .header {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.friends-form > .center-text {
+    text-align: center;
+    color: gray;
+    margin-bottom: 1rem;
+}
+
+.friends-form > .header > .title {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.etc {
+    font-size: x-large;
+}
+
+.etc > i {
+    margin-left: 1rem;
+}
+
+.friends-list {
+    display: table;
+}
+
+.friends-list > span {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: large;
+    font-weight: bold;
+}
+
+.friends-list > .img-profile {
+    width: 100px;
+    height: 100px;
+    margin-right: 0.5rem;
+}
+
+.channel-form > .header {
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.channel-form > .header > .title {
+    font-size: medium;
+    color: gray;
+}
+
+.channel-list {
+    margin: 1rem;
+    display: table;
+}
+
+.channel-list > .img-profile {
+    width: 75px;
+    height: 75px;
+    margin-right: 0.5rem;
+}
+
+.channel-list > .channel-name {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: large;
+}
+
+.channel-list > .channel-count {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    font-size: medium;
+    color: gray;
+    opacity: 80%;
+    width: 100%;
+}
+
+.chevron {
+    color: gray;
+    margin-right: 1rem;
+    opacity: 80%;
+    font-size: small;
+}

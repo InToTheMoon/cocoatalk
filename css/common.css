@@ -48,12 +48,36 @@ body {
 	border-bottom-color: yellow;
 }
 
+/* loading form */
+
 .loading-form {
-	background-color: yellow;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
+@keyframes fadeOut {
+	0% {
+		opacity: 1;
+		background-color: yellow;
+	}
+	100% {
+		opacity: 0;
+		background-color: white;
+	}
+}
+
+.fadeOut {
+	animation: fadeOut 1s;
+}
+
+.separate-line {
+	margin-right: 1rem;
+	margin-left: 1rem;
+	opacity: 50%;
+}
+
+/* screen size */
 
 @media ( min-width: 650px ) {
 	body {
