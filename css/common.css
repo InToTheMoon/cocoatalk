@@ -103,28 +103,26 @@ body {
 	background-color: whitesmoke;
 }
 
-.turn {
+.circle {
+	height: 25px;
+	width: 25px;
+	background-color: red;
+	border-radius: 50%;
+	display: inline-block;
 	animation-name: turn;
-	animation-duration: 1s;
+	animation-duration: 2.5s;
 	animation-fill-mode: forwards;
 	animation-iteration-count: infinite;
+	color: white;
+	font-size: medium;
+	/* text-align: center;
+	justify-content: center; */
 }
 
 @keyframes turn {
-	0% { transform: none; margin-top: -8%;}
-	20% { transform: none; margin-top: -8%;}
-	30% { transform: rotateY(36deg); margin-top: -6%;}
-	35% { transform: rotateY(72deg); margin-top: -4%;}
-	40% { transform: rotateY(108deg); margin-top: -2%;}
-	45% { transform: rotateY(144deg); margin-top: 0%;}
-	50% { transform: rotateY(180deg); margin-top: 0%;}
-	55% { transform: rotateY(216deg); margin-top: 0%;}
-	60% { transform: rotateY(242deg); margin-top: 2%;}
-	65% { transform: rotateY(278deg); margin-top: 4%;}
-	70% { transform: rotateY(324deg); margin-top: 6%;}
-	75% { transform: rotateY(360deg); margin-top: 8%;}
-	80% { transform: none; margin-top: 8%;}
-	100% { transform: none; margin-top: 6%;}
+	0% { transform: rotateY(0deg); margin-top: -8%;}
+	50% { transform: rotateY(360deg); margin-top: 8%;}
+	100% { transform: rotateY(0deg); margin-top: -8%;}
 }
 
 /* screen size */
