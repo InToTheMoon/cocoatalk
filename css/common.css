@@ -101,6 +101,7 @@ body {
 	opacity: 80%;
 	border: none;
 	background-color: whitesmoke;
+	position: relative;
 }
 
 .circle {
@@ -108,15 +109,18 @@ body {
 	width: 25px;
 	background-color: red;
 	border-radius: 50%;
-	display: inline-block;
 	animation-name: turn;
 	animation-duration: 2.5s;
 	animation-fill-mode: forwards;
 	animation-iteration-count: infinite;
 	color: white;
 	font-size: medium;
-	/* text-align: center;
-	justify-content: center; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 20px;
+	top: -10px;
 }
 
 @keyframes turn {
