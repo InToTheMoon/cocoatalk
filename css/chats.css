@@ -1,0 +1,38 @@
+.chats-form > .header {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chats-form > .header > .title {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.etc {
+    font-size: x-large;
+}
+
+.etc > i {
+    margin-left: 1rem;
+}
+
+.chats-list {
+    display: table;
+}
+
+.chats-list > span {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: large;
+    font-weight: bold;
+}
+
+.chats-list > .img-profile {
+    width: 100px;
+    height: 100px;
+    margin-right: 0.5rem;
+}

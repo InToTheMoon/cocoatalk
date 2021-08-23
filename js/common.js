@@ -5,3 +5,7 @@ function login() {
 function showLoadingPage() {
     window.location.href='loading.html';
 }
+
+function showChatsPage() {
+    window.location.href='chats.html';
+}
