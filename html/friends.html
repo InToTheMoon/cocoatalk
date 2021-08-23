@@ -2,7 +2,7 @@
   <head>
     <title>Welcome to Cocoa Clone</title>
     <link rel="stylesheet" href="../css/common.css">
-    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/friends.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/bfc7077929.js" crossorigin="anonymous"></script>
   </head>
@@ -74,13 +74,14 @@
           </span>
         </div>
       </div>
+      
       <!-- menu -->
       <footer>
         <div class="menu">
-          <button>
+          <button onclick="showLoadingPage()">
             <i class="fas fa-user"></i>
           </button>
-          <button>
+          <button onclick="showChatsPage()">
             <span class="circle">1</span>
             <i class="far fa-comment"></i>
           </button>
@@ -93,5 +94,7 @@
         </div>
       </footer>
     </div>
+
+    <script src="../js/common.js"></script>
   </body>
 </html>
