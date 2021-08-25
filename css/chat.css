@@ -1,0 +1,110 @@
+body {
+    background-color: #abc1d1;
+}
+
+.menu-form {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    opacity: 70%;
+}
+
+.menu-form > div {
+    display: inline-flex;    
+}
+
+.menu-form > .go-back {
+    width: 25%;
+    text-align: start;
+    font-size: 50px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu-form > .chat-name {
+    width: 50%;    
+    font-size: xx-large;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;  
+}
+
+.menu-form > .etc {
+    width: 25%;
+    text-align: end;
+    font-size: x-large;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.etc > i {
+    margin-left: 1rem;
+}
+
+.chat-list {
+    margin: 1rem;
+}
+
+.chat {
+	cursor: pointer;
+    display: table;
+    width: 100%;
+}
+
+.chat > .contents {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.chat > .contents > .user-name {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.chat > .contents > .message {
+    font-size: medium;
+    font-weight: lighter;
+    color: gray;
+    opacity: 80%;
+}
+
+.chat > .profile {
+    display: table-cell;
+    width: 100px;
+}
+
+.chat > .profile > .profile-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 0.5rem;
+}
+
+.chat > .etc {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.chat > .etc > .sended-at {
+    margin-bottom: 0.3rem;
+	font-size: medium;
+    color: gray;
+    opacity: 70%;
+}
+
+.chat > .etc > .count-message {
+    height: 25px;
+	width: 25px;
+    margin-top: 0.3rem;
+	background-color: red;
+	border-radius: 50%;
+	font-size: medium;
+    color: white;
+    display: inline-flex;
+	justify-content: center;
+	align-items: center;
+    opacity: 70%;
+}

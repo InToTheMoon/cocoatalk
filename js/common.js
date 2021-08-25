@@ -9,3 +9,7 @@ function showLoadingPage() {
 function showChatsPage() {
     window.location.href='chats.html';
 }
+
+function showChatPage() {
+    window.location.href='chat.html';
+}

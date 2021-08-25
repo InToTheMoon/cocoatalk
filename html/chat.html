@@ -2,7 +2,7 @@
   <head>
     <title>Welcome to Cocoa Clone</title>
     <link rel="stylesheet" href="../css/common.css">
-    <link rel="stylesheet" href="../css/chats.css">
+    <link rel="stylesheet" href="../css/chat.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/bfc7077929.js" crossorigin="anonymous"></script>
   </head>
@@ -31,20 +31,24 @@
         </div>
       </div>
 
-      <!-- chats -->
-      <div id="chats-form" class="chats-form">
-        <div class="header">
-          <div class="title">
-            Chats
-          </div>
-          <div class="etc">
-            <i class="fas fa-search"></i>
-            <i class="fas fa-music"></i>
-            <i class="fas fa-cog"></i>
-          </div>
+      <!-- menu -->
+      <div class="menu-form">
+        <div class="go-back">
+          <i class="fas fa-angle-left "></i>
         </div>
+        <div class="chat-name">
+          Yeongmoon Kim
+        </div>
+        <div class="etc">
+          <i class="fas fa-search"></i>
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+
+      <!-- messages -->
+      <div id="messages-form" class="messages-form">
         <div class="chat-list">
-          <div class="chat" onclick="showChatPage()">
+          <div class="chat" onclick="">
             <div class="profile">
               <img src="../img/profile.jpg" alt="profile" class="profile-img">
             </div>
@@ -60,23 +64,9 @@
         </div>
       </div>
       
-      <!-- menu -->
+      <!-- input message -->
       <footer>
-        <div class="menu">
-          <button onclick="showLoadingPage()">
-            <i class="fas fa-user"></i>
-          </button>
-          <button onclick="showChatsPage()">
-            <span class="circle">1</span>
-            <i class="far fa-comment"></i>
-          </button>
-          <button>
-            <i class="fas fa-search"></i>
-          </button>
-          <button>
-            <i class="fas fa-ellipsis-h"></i>
-          </button>
-        </div>
+        
       </footer>
     </div>
 
