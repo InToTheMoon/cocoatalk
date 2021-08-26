@@ -2,6 +2,7 @@ body {
     background-color: #abc1d1;
 }
 
+/********************* menu *********************/
 .menu-form {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -43,68 +44,73 @@ body {
     margin-left: 1rem;
 }
 
-.chat-list {
+/********************* messages *********************/
+.profile-img {
+    width: 60px;
+    height: 60px;
+    margin-right: 0.5rem;
+	border-radius: 50%;
+}
+
+.chat-start-date-form {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+
+.chat-start-date-form > span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+	background-color: #92a4b2;
+    color: white;
+}
+
+.message-from-the-other {
+    display: table;
     margin: 1rem;
 }
 
-.chat {
-	cursor: pointer;
-    display: table;
-    width: 100%;
-}
-
-.chat > .contents {
+.message-from-the-other > .profile {
     display: table-cell;
     vertical-align: middle;
 }
 
-.chat > .contents > .user-name {
-    font-size: large;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-}
-
-.chat > .contents > .message {
-    font-size: medium;
-    font-weight: lighter;
-    color: gray;
-    opacity: 80%;
-}
-
-.chat > .profile {
-    display: table-cell;
-    width: 100px;
-}
-
-.chat > .profile > .profile-img {
-    width: 100px;
-    height: 100px;
-    margin-right: 0.5rem;
-}
-
-.chat > .etc {
+.message-from-the-other > .contents {
     display: table-cell;
     vertical-align: middle;
-    text-align: right;
 }
 
-.chat > .etc > .sended-at {
-    margin-bottom: 0.3rem;
-	font-size: medium;
-    color: gray;
+.message-from-the-other > .contents > .user-name {
     opacity: 70%;
 }
 
-.chat > .etc > .count-message {
-    height: 25px;
-	width: 25px;
-    margin-top: 0.3rem;
-	background-color: red;
-	border-radius: 50%;
-	font-size: medium;
-    color: white;
-    display: inline-flex;
-	justify-content: center;
-	align-items: center;
-    opacity: 70%;
+.message-from-the-other > .etc {
+    display: table-cell;
+    vertical-align: bottom;
 }
+
+.message-from-me {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 1rem;
+}
+
+.message {
+    padding: 1rem;
+    font-size: larger;
+}
+
+.sended-at {
+    opacity: 70%;
+    font-size: small;
+}
+
+/********************* input message *********************/
+
