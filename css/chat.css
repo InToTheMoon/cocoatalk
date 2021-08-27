@@ -71,46 +71,48 @@ body {
     color: white;
 }
 
-.message-from-the-other {
-    display: table;
-    margin: 1rem;
-}
-
-.message-from-the-other > .profile {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.message-from-the-other > .contents {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.message-from-the-other > .contents > .user-name {
-    opacity: 70%;
-}
-
-.message-from-the-other > .etc {
-    display: table-cell;
-    vertical-align: bottom;
-}
-
-.message-from-me {
+.etc {
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin: 1rem;
-}
-
-.message {
-    padding: 1rem;
-    font-size: larger;
+    align-items: flex-end;
+    padding: 1rem 0.5rem;
 }
 
 .sended-at {
     opacity: 70%;
     font-size: small;
 }
+
+.message-from-the-other {
+    display: flex;
+    margin: 1rem;
+}
+
+.message-from-the-other > .contents > .message {
+    padding: 1rem;
+    margin-top: 0.3rem;
+    font-size: larger;
+    background-color: white;
+    border-radius: 0 17px 17px 17px;
+}
+
+.message-from-the-other > .contents > .user-name {
+    margin: 0;
+    opacity: 70%;
+}
+
+.message-from-me {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem;
+}
+
+.message-from-me > .contents > .message {
+    padding: 1rem;
+    font-size: larger;
+    background-color: #fae100;
+    border-radius: 17px 0px 17px 17px;
+}
+
 
 /********************* input message *********************/
 
