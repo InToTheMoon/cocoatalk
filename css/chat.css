@@ -2,7 +2,9 @@ body {
     background-color: #abc1d1;
 }
 
+
 /********************* menu *********************/
+
 .menu-form {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -44,7 +46,9 @@ body {
     margin-left: 1rem;
 }
 
+
 /********************* messages *********************/
+
 .profile-img {
     width: 60px;
     height: 60px;
@@ -116,3 +120,32 @@ body {
 
 /********************* input message *********************/
 
+.input-message__wrapper {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 55px;
+    width: 100%;
+    background: white;
+    text-align: center;
+}
+
+.input-message-form {
+    width: 80%;
+}
+
+.input-message {
+    width: 100%;
+    height: 80%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 45px;
+    padding-left: 1rem;
+    border: 1px solid rgba(46,49, 49, 0.3);
+    border-radius: 30px;
+}
+
+.input-message:focus {
+    outline: none;
+}
