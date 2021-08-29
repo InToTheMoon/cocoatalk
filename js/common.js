@@ -13,3 +13,7 @@ function showChatsPage() {
 function showChatPage() {
     window.location.href='chat.html';
 }
+
+function toggleInputMessageForm() {
+    console.log('inputMessageForm');
+}
