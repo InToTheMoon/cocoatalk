@@ -15,5 +15,7 @@ function showChatPage() {
 }
 
 function toggleInputMessageForm() {
-    console.log('inputMessageForm');
+    // get input-message-wrapper element_id
+    // element_id.document.classlist.toggle
+    // class hide: height: 0
 }
