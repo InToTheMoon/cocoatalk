@@ -133,14 +133,15 @@ body {
 }
 
 .input-message__wrapper > .etc > i {
-    font-size: 25px;
-    opacity: 50%;
+    font-size: 23px;
+    opacity: 70%;
     margin: 0;
+    color: gray;
 }
 
 .input-message-form {
     display: flex;
-    width: 80%;
+    width: 100%;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 2rem;
@@ -150,7 +151,7 @@ body {
 }
 
 .write-message__wrapper {
-    width: 80%;
+    width: 100%;
 }
 
 .write-message {
@@ -166,11 +167,10 @@ body {
 
 .submit-form {
     display: flex;
-    width: 20%;
 }
 
 .submit-form > .emoticon > i {
-    font-size: 25px;
+    font-size: 23px;
     opacity: 50%;
     margin: 0.7rem;
 }
@@ -181,7 +181,8 @@ body {
 }
 
 .submit {
-    width: 100%;
+    width: 40px;
+    min-width: 40px;
     background-color: #fae100;
     border-radius: 50%;
     margin: 0.1rem;
