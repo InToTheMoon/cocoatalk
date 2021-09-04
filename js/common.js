@@ -1,3 +1,13 @@
+window.onload = function () {
+    document.getElementById('write-message').addEventListener('focus', (event) => {
+        toggleInputMessageForm();
+    }, true);
+    
+    document.getElementById('write-message').addEventListener('blur', (event) => {
+        toggleInputMessageForm();
+    }, true);
+}
+
 function login() {
     showLoadingPage();    
 }
@@ -19,14 +29,17 @@ function setTargetTransitionBySeconds(target, seconds) {
 }
 
 function toggleInputMessageForm() {
-    // get target element
-    let target = document.getElementById('input-message-form');
+    
+    console.log('toggleInputMessageForm');
 
+    // get target element
+    let target = document.getElementById('input-message__wrapper');
+    
     // set form transition time
-    setTargetTransitionBySeconds(target)
+    setTargetTransitionBySeconds(target, 0.3)
 
     // get target height
-    let target_height = target.style.height;
+    let target_height = getComputedStyle(target).height;
 
     if (target_height == 0) {
         slideUp(target);
@@ -36,9 +49,9 @@ function toggleInputMessageForm() {
 }
 
 function slideUp(target) {
-    // target.style.
+    target.style.height = 0;
 }
 
 function slideDown(target) {
-
+    target.style.height = '55px';
 }
