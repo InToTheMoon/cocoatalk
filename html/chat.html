@@ -78,14 +78,11 @@
       </div>
       
       <!-- input message -->
-      <footer class="input-message__wrapper">
+      <footer class="input-message__wrapper" id="input-message__wrapper">
         <div class="etc">
           <i class="far fa-plus-square"></i>
         </div>
-        <div class="input-message-form">
-          <div class="write-message__wrapper">
-            <input type="text" name="write-message" id="write-message" class="write-message" placeholder="Write a message..." onfocus="toggleInputMessageForm()">
-          </div>
+        <div class="input-message-form" id="input-message-form">
           <div class="submit-form">
             <div class="emoticon">
               <i class="far fa-smile-wink"></i>
@@ -96,6 +93,11 @@
           </div>
         </div>
       </footer>
+
+      <div class="write-message__wrapper">
+        <input type="text" name="write-message" id="write-message" class="write-message" placeholder="Write a message...">
+      </div>
+
     </div>
 
     <script src="../js/common.js"></script>
