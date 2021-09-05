@@ -1,10 +1,35 @@
 window.onload = function () {
     document.getElementById('write-message').addEventListener('focus', (event) => {
-        toggleInputMessageForm();
+        // get target element
+        let message__wrapper = document.getElementById('input-form__wrapper');
+
+        // set form transition time
+        setTargetTransitionBySeconds(message__wrapper, 0.3)
+        setTargetTransitionBySeconds(event.target, 0.3)
+
+        // slide down
+        changeTargetHeight(message__wrapper, 0);
+        changeTargetWidth(event.target, '100%');
+        changeTargetMarginLeft(event.target, 0);
+        changeTargetMarginRight(event.target, 0);
+        message__wrapper.style.visibility = 'hidden';
     }, true);
     
     document.getElementById('write-message').addEventListener('blur', (event) => {
-        toggleInputMessageForm();
+        // get target element
+        let message__wrapper = document.getElementById('input-form__wrapper');
+
+        // set form transition time
+        setTargetTransitionBySeconds(message__wrapper, 0.3)
+        setTargetTransitionBySeconds(event.target, 0.3)
+
+        // slide up
+        changeTargetHeight(message__wrapper, '55px');
+        changeTargetWidth(event.target, '100%');
+        changeTargetMarginLeft(event.target, '5rem');
+        changeTargetMarginRight(event.target, '2rem');
+        message__wrapper.style.visibility = 'visible';
+        message__wrapper.style.visibility = 'visible';
     }, true);
 }
 
@@ -28,30 +53,18 @@ function setTargetTransitionBySeconds(target, seconds) {
     target.style.transition = "all " + seconds + "s";
 }
 
-function toggleInputMessageForm() {
-    
-    console.log('toggleInputMessageForm');
-
-    // get target element
-    let target = document.getElementById('input-message__wrapper');
-    
-    // set form transition time
-    setTargetTransitionBySeconds(target, 0.3)
-
-    // get target height
-    let target_height = getComputedStyle(target).height;
-
-    if (target_height == 0) {
-        slideUp(target);
-    } else {
-        slideDown(target);
-    }
+function changeTargetHeight(target, change_value) {
+    target.style.height = change_value;
 }
 
-function slideUp(target) {
-    target.style.height = 0;
+function changeTargetWidth(target, change_value) {
+    target.style.width = change_value;
 }
 
-function slideDown(target) {
-    target.style.height = '55px';
+function changeTargetMarginLeft(target, change_value) {
+    target.style.marginLeft = change_value;
+}
+
+function changeTargetMarginRight(target, change_value) {
+    target.style.marginRight = change_value;
 }

@@ -114,7 +114,7 @@ body {
 
 /********************* input message *********************/
 
-.input-message__wrapper {
+.input-form__wrapper {
     display: flex;
     position: absolute;
     bottom: 0;
@@ -124,40 +124,37 @@ body {
     background: white;
 }
 
-.input-message__wrapper > .etc {
+.input-form__wrapper > .etc {
     width: 15%;
     justify-content: center;
     align-items: center;
     display: flex;
 }
 
-.input-message__wrapper > .etc > i {
+.input-form__wrapper > .etc > i {
     font-size: 23px;
     opacity: 70%;
     margin: 0;
     color: gray;
 }
 
-.input-message-form {
+.input-form {
     display: flex;
     justify-content: right;
     width: 100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 2rem;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-right: 2.1rem;
     margin-left: 1rem;
-    border: 1px solid rgba(46, 49, 49, 0.3);
-    border-radius: 30px;
 }
 
 .write-message__wrapper {
     display: flex;
     position: absolute;
-    width: 75%;
+    width: 100%;
     height: 55px;
     bottom: 0;
-    left: 10%;
-    margin-left: 1rem;
+    left: 0;
 }
 
 .write-message {
@@ -166,28 +163,39 @@ body {
     border-radius: 30px;
     margin-top: 5.8px;
     margin-bottom: 5.3px;
-    margin-left: 1.2rem;
+    margin-left: 5rem;
     margin-right: 2rem;
     padding-left: 1rem;
+    border: 1px solid rgba(46, 49, 49, 0.3);
 }
 
 .write-message:focus {
     outline: none;
 }
 
-.submit-form {
+.button__wrapper {
     display: flex;
+    z-index: 1;
 }
 
-.submit-form > .emoticon > i {
+.button__wrapper > .emoticon > i {
     font-size: 23px;
     opacity: 50%;
     margin: 0.7rem;
 }
 
-.submit-form > .submit > i {
+.button__wrapper > .submit > i {
     font-size: 14px;
     margin: 0.7rem;
+}
+
+.emoticon {
+    width: 40px;
+    min-width: 40px;
+    margin: 0.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .submit {
