@@ -29,7 +29,6 @@ window.onload = function () {
         changeTargetMarginLeft(event.target, '5rem');
         changeTargetMarginRight(event.target, '2rem');
         message__wrapper.style.visibility = 'visible';
-        message__wrapper.style.visibility = 'visible';
     }, true);
 }
 
@@ -47,6 +46,14 @@ function showChatsPage() {
 
 function showChatPage() {
     window.location.href='chat.html';
+}
+
+function showFindPage() {
+    window.location.href='find.html';
+}
+
+function showMorePage() {
+    window.location.href='more.html';
 }
 
 function setTargetTransitionBySeconds(target, seconds) {
