@@ -26,6 +26,10 @@ body {
     align-items: center;
 }
 
+.go-back > i {
+    cursor: pointer;
+}
+
 .menu-form > .chat-name {
     width: 50%;    
     font-size: xx-large;
@@ -98,6 +102,14 @@ body {
     opacity: 70%;
 }
 
+.message-from-the-other > .etc {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+
 .message-from-me {
     display: flex;
     justify-content: flex-end;
@@ -109,6 +121,14 @@ body {
     font-size: larger;
     background-color: #fae100;
     border-radius: 17px 0px 17px 17px;
+}
+
+.message-from-me > .etc {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-bottom: 1rem;
+    padding-right: 0.5rem;
 }
 
 
