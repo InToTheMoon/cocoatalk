@@ -1,0 +1,50 @@
+.finds-form > .header {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finds-form > .header > .title {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.etc {
+    font-size: x-large;
+}
+
+.etc > i {
+    margin-left: 1rem;
+}
+
+.finds {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.finds-icon {
+    font-size: 2.5rem;
+}
+
+.finds-icon__wrapper {
+    text-align: center;
+}
+
+.recommended-friends {
+
+}
+
+.recommended-friends-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+}
+
+.open-chats {
+
+}
