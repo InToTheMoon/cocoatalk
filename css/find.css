@@ -1,4 +1,4 @@
-.finds-form > .header {
+.find-form > .header {
     margin-left: 1rem;
     margin-right: 1rem;
     margin-top: 2rem;
@@ -7,7 +7,7 @@
     justify-content: space-between;
 }
 
-.finds-form > .header > .title {
+.find-form > .header > .title {
     font-size: xx-large;
     font-weight: bold;
 }
@@ -20,17 +20,18 @@
     margin-left: 1rem;
 }
 
-.finds {
+.find {
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
-.finds-icon {
+.find-icon {
     font-size: 2.5rem;
 }
 
-.finds-icon__wrapper {
+.find-icon__wrapper {
     text-align: center;
 }
 
@@ -38,13 +39,22 @@
 
 }
 
-.recommended-friends-content {
+.recommended-friends > .header {
+    padding-left: 1rem;
+    font-size: 15px;
+    opacity: 40%;
+}
+
+.recommended-friends > .content {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25%;
+    height: 30%;
+    opacity: 40%;
 }
 
-.open-chats {
-
+.open-chats > .header {
+    padding-left: 1rem;
+    font-size: 15px;
+    opacity: 40%;
 }
