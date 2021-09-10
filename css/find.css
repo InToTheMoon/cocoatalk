@@ -35,10 +35,6 @@
     text-align: center;
 }
 
-.recommended-friends {
-
-}
-
 .recommended-friends > .header {
     padding-left: 1rem;
     font-size: 15px;
@@ -55,6 +51,16 @@
 
 .open-chats > .header {
     padding-left: 1rem;
+    padding-right: 1rem;
     font-size: 15px;
     opacity: 40%;
 }
+
+.open-chats > .header > .title {
+
+}
+
+.open-chats > .header > .back-home {
+
+}
+
