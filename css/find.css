@@ -57,10 +57,10 @@
 }
 
 .open-chats > .header > .title {
-
+    font-weight: bolder;
 }
 
 .open-chats > .header > .back-home {
-
+    float: right;
 }
 
