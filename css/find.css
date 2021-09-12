@@ -64,3 +64,20 @@
     float: right;
 }
 
+.contents {
+    display: flex;
+}
+
+.contents > .text {
+    
+}
+
+.contents > .img {
+
+}
+
+.profile-img {
+    height: 50px;
+    width: 50px;
+}
+
