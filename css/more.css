@@ -40,3 +40,26 @@
     width: 7rem;
 }
 
+.chat > .profile {
+    display: table-cell;
+    width: 100px;
+}
+
+.chat > .profile > .profile-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 0.5rem;
+}
+
+.chat > .etc {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.chat > .etc > .sended-at {
+    margin-bottom: 0.3rem;
+	font-size: medium;
+    color: gray;
+    opacity: 70%;
+}
