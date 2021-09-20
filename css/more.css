@@ -23,12 +23,13 @@
 .more {
     display: flex;
     justify-content: space-between;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
 }
 
-.more-icon {
-    font-size: 2.5rem;
+.more i {
+    font-size: 2rem;
 }
 
 .more-icon__wrapper {
@@ -40,26 +41,34 @@
     width: 7rem;
 }
 
-.chat > .profile {
-    display: table-cell;
-    width: 100px;
+.profile {
+    display: flex;    
 }
 
-.chat > .profile > .profile-img {
+.profile > .profile-img {
     width: 100px;
     height: 100px;
     margin-right: 0.5rem;
 }
 
-.chat > .etc {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: right;
+.profile .name {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.2rem;
 }
 
-.chat > .etc > .sended-at {
-    margin-bottom: 0.3rem;
-	font-size: medium;
+.profile .tell {
+    margin-top: 0.2rem;
+    font-size: 1.1rem;
+    font-weight: lighter;
     color: gray;
-    opacity: 70%;
+    opacity: 70%;    
+}
+
+.profile > .comment {
+    display: flex;
+    align-items: center;
+    margin-left: 7rem;
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
 }
