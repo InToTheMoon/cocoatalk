@@ -72,3 +72,26 @@
     padding-bottom: 1.5rem;
     font-size: 2rem;
 }
+
+.suggestion {
+    margin: 1rem;
+}
+
+.suggestion .content {
+    display: flex;
+}
+
+.suggestion .suggestion-icon {
+    background-color: yellow;
+    width: 4rem;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 13px;
+}
+
+.suggestion-icon > i {
+    color: white;
+    font-size: xx-large;
+}
